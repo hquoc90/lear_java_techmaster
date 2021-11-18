@@ -23,5 +23,7 @@ public class App {
         bmi.bmiVoid(height, weight);
         System.out.println("Bmi cua ban la - goi phuong thuoc BMI return double co truyen tham so "+ bmi.bmiDoubleVariale(height, weight));
         System.out.println("BMI cua ban la - goi phuong thuc BMi return double khong truyen tham so"+ bmi.bmiDouble());
+        /* Phương thức return double có truyền tham số tốt nhất. 
+        Khi cần thay đổi, sử dụng không cần phải chỉnh sửa trực tiếp ở trong hàm */
     }
 }
