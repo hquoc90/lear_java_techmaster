@@ -37,10 +37,7 @@ public class Player {
     public void setPosition(Position position) {
         this.position = position;
     }
-    public int getIndexOf(int n)
-    {
-        return this.getIndexOf(n);
-    }
+
 
     @Override
     public String toString() {
