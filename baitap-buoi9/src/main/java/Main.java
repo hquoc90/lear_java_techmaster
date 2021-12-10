@@ -63,13 +63,11 @@ public class Main {
                     System.out.println("Khong thay khach hang nao co id " + id);
                 }
 
-            } else if(choice!=1 || choice !=2 || choice!=3 ||choice!=4){
+            } else if (choice != 0) {
                 System.out.println("Khong co lua chon nay");
             }
 
         } while (choice != 0);
-
-
 
 
     }
